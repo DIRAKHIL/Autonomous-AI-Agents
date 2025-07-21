@@ -1,0 +1,32 @@
+<footer class="site-footer">
+    <div class="footer-content">
+        <div class="footer-section">
+            <h3>{{ site.title }}</h3>
+            <p>{{ site.description }}</p>
+        </div>
+        <div class="footer-section">
+            <h3>Categories</h3>
+            <ul>
+                {% for category in site.categories %}
+                <li><a href="{{ site.baseurl }}/pages/{{ category[0] }}.html">{{ category[0] | capitalize }}</a></li>
+                {% endfor %}
+            </ul>
+        </div>
+        <div class="footer-section">
+            <h3>Connect</h3>
+            <ul class="social-links">
+                {% if site.twitter_username %}
+                <li><a href="https://twitter.com/{{ site.twitter_username }}">Twitter</a></li>
+                {% endif %}
+                {% if site.github_username %}
+                <li><a href="https://github.com/{{ site.github_username }}">GitHub</a></li>
+                {% endif %}
+                <li><a href="{{ site.baseurl }}/feed.xml">RSS</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; {{ site.time | date: '%Y' }} {{ site.title }}. All rights reserved.</p>
+        <p>Powered by <a href="https://jekyllrb.com/">Jekyll</a> and <a href="https://pages.github.com/">GitHub Pages</a>.</p>
+    </div>
+</footer>
