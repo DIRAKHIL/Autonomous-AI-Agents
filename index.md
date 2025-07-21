@@ -9,7 +9,7 @@ Your source for the latest technology insights, guides, reviews, and tutorials.
 
 ## Recent Articles
 
-*No posts yet. Check back soon!*
+* [10 Essential Home Office Upgrades for Productivity]({{ site.baseurl }}{{ post_url 2025-07-21-guides-10-essential-home-office-upgrades-for-productivity }}) - *Guides*
 
 
 ## Categories
