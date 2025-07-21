@@ -1,0 +1,32 @@
+{
+  "categories": {
+    "guides": {
+      "title": "Guides",
+      "description": "Articles about guides in technology",
+      "posts": []
+    },
+    "reviews": {
+      "title": "Reviews",
+      "description": "Articles about reviews in technology",
+      "posts": []
+    },
+    "news": {
+      "title": "News",
+      "description": "Articles about news in technology",
+      "posts": []
+    },
+    "tutorials": {
+      "title": "Tutorials",
+      "description": "Articles about tutorials in technology",
+      "posts": []
+    },
+    "case studies": {
+      "title": "Case Studies",
+      "description": "Articles about case studies in technology",
+      "posts": []
+    }
+  },
+  "series": {},
+  "tags": {},
+  "recent_posts": []
+}
