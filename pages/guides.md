@@ -9,7 +9,7 @@ Articles about guides in technology
 
 ## Articles in this Category
 
-*No posts in this category yet. Check back soon!*
+* [10 Essential Home Office Upgrades for Productivity]({{ site.baseurl }}{{ post_url 2025-07-21-guides-10-essential-home-office-upgrades-for-productivity }}) - *2025-07-21*
 
 
 [Back to Home](/)
